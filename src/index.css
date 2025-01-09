@@ -6,6 +6,10 @@ html{
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 *{
   font-family: "Poppins", sans-serif;
 }
